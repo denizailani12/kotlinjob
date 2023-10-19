@@ -1,0 +1,127 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-2.4dp"
+        android:layout_alignParentTop="true"
+        android:background="#2AB9D9" />
+
+    <TextView
+        android:id="@+id/some_id"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/ic_jam"/>
+
+    <View
+        android:id="@+id/signal"
+        android:layout_width="23dp"
+        android:layout_height="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="294dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="93dp"
+        android:background="@drawable/ic_signal" />
+
+    <View
+        android:id="@+id/sinyal"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="319dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="707dp"
+        android:background="@drawable/ic_sinyal" />
+
+    <View
+        android:id="@+id/baterai"
+        android:layout_width="wrap_content"
+        android:layout_height="11dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="359dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="711dp"
+        android:background="@drawable/ic_baterai" />
+
+    <TextView
+        android:id="@+id/deskripsi_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="69dp"
+        android:gravity="top"
+        android:text="deskripsi lowongan"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+
+    <View
+        android:id="@+id/gambar_9"
+        android:layout_width="254dp"
+        android:layout_height="201dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/ic_pt" />
+
+
+    <TextView
+        android:id="@+id/kualifikasi"
+        android:layout_width="315dp"
+        android:layout_height="225dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="369dp"
+        android:gravity="center_vertical"
+        android:text="@string/kualifikasi"
+        android:textAppearance="@style/kualifikasi" />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/button_defa"
+        android:layout_width="306dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="640dp"
+        />
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:background=""
+        />
+
+</RelativeLayout>
